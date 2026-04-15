@@ -146,11 +146,10 @@ Then("Movie Should be Removed from Favorite List", () => {
   cy.contains('Mario Galaxy').should('not.exist');
 });
 
-Given("ignore for test 1", () => {
-  cy.loginTMDB();
+Then("ignore for test 1", () => {
   cy.visit("https://www.themoviedb.org/movie/1226863-the-super-mario-galaxy-movie");
 });
 
-When("ignore for test 2", () => {
+Then("ignore for test 2", () => {
   cy.get('#favourite').should('be.visible').click();
 });
