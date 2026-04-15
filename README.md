@@ -1,6 +1,6 @@
 This project is an end-to-end automation testing suite for The Movie Database (TMDB) developed using Cypress and Cucumber (BDD). It covers functionalities such as language settings, favorite movie management, and sorting features.
 
-Testrun Example : [Test Run](Test%20Run.mp4)
+Testrun Example : [Download Test Run](Test%20Run.mp4)
 
 Test scenarios are also documented in [TestCase(Gherkin).md](./TestCase(Gherkin).md) and [Download Test Case Spreadsheet](Test%20Case.xlsx)
 
