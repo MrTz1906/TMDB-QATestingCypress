@@ -64,6 +64,8 @@ Feature: TMDB Test Cases
         Given In Movie Detail Page Mario
         When Click Remove Favorite Button From Movie Detail Page
         Then Movie Should be Removed from Favorite List
+        Then ignore for test 1
+        Then ignore for test 2
 
 
 

@@ -12,7 +12,7 @@ Feature: TMDB Test Cases
         
     Scenario: TMDB-Langguage-002 As User. Change Langguage Settings From English to Indonesia
         Given In Home Page Default Langguage English Already Login
-        Given Click Langguage Button
+        When Click Langguage Button
         And Click Default Langguage Dropdown
         And Filter Indonesia
         And Click Reload Page Button
@@ -27,7 +27,7 @@ Feature: TMDB Test Cases
 
     Scenario: TMDB-Favorite-002 As User. Tag Favorite a Movie From Movie List
         Given In Movie Listing Page
-        Given Click Favorite Button From Movie Listing
+        When Click Favorite Button From Movie Listing
         Then Movie Should be Added to Favorite
 
     Scenario: TMDB-Favorite-003 As User. Tag Favorite a Movie From Movie Detail Page
